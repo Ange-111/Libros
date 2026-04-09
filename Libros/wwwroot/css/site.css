@@ -1,0 +1,75 @@
+/* Fondo general */
+body {
+    background-color: #fff0f6;
+    font-family: 'Segoe UI', sans-serif;
+}
+
+/* Títulos */
+h1, h2, h3 {
+    color: #d63384;
+    font-weight: bold;
+}
+
+/* Navbar */
+nav {
+    background: linear-gradient(90deg, #ffb6d9, #ffc9e8);
+    border-radius: 10px;
+}
+
+    /* Links del menú */
+    nav a {
+        color: #8a2c5f;
+        font-weight: bold;
+        margin-right: 10px;
+        text-decoration: none;
+    }
+
+        nav a:hover {
+            color: #d63384;
+        }
+
+/* Tarjetas de libros */
+.card {
+    border-radius: 20px;
+    border: none;
+    transition: transform 0.3s;
+}
+
+    .card:hover {
+        transform: scale(1.05);
+    }
+
+/* Botones */
+.btn-primary {
+    background-color: #ff69b4;
+    border: none;
+}
+
+    .btn-primary:hover {
+        background-color: #ff3f9e;
+    }
+
+/* Sombras suaves */
+.shadow {
+    box-shadow: 0 8px 20px rgba(0,0,0,0.1);
+}
+
+/* Footer */
+footer {
+    background-color: #ffe3f1;
+    padding: 15px;
+    border-radius: 10px;
+}
+
+body {
+    background: linear-gradient(180deg,#ffe6f2,#fff5fa);
+}
+
+.card {
+    border-radius: 20px;
+}
+
+    .card:hover {
+        transform: scale(1.03);
+        transition: 0.3s;
+    }
