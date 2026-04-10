@@ -1,56 +1,68 @@
-﻿@{
+@{
     ViewData["Title"] = "Opiniones";
 }
 
-<div class="container mt-5">
-
-    <h1 class="text-center mb-5">⭐ Opiniones de Libros</h1>
-
-    <div class="row justify-content-center">
-
-        <div class="col-md-5">
-
-            <div class="card shadow p-4 mb-4">
-
-                <h4>📖 El Principito</h4>
-
-                <p>
-                    Este libro enseña la importancia de la amistad, la imaginación
-                    y el valor de las pequeñas cosas. Es una lectura sencilla
-                    pero muy profunda.
-                </p>
-
-                <p>⭐ Calificación: 5/5</p>
-
-            </div>
-
-        </div>
-
-        <div class="col-md-5">
-
-            <div class="card shadow p-4 mb-4">
-
-                <h4>🧙 Harry Potter</h4>
-
-                <p>
-                    Una historia llena de aventuras que sigue la vida de un
-                    joven mago y sus amigos en Hogwarts.
-                </p>
-
-                <p>⭐ Calificación: 4.8/5</p>
-
-            </div>
-
-        </div>
-
+<div class="container mt-4">
+    <div class="text-center mb-5">
+        <h1 class="display-5 fw-bold" style="color: #2c3e50;">💬 Opiniones de Lectores</h1>
+        <div class="divider mx-auto" style="width: 80px; height: 3px; background: linear-gradient(90deg, #3498db, #2c3e50);"></div>
+        <p class="lead text-muted mt-3">Lo que nuestra comunidad piensa de estos libros</p>
     </div>
 
-    <div class="text-center mt-4">
+    <div class="row justify-content-center g-4">
+        <div class="col-md-6">
+            <div class="card border-0 shadow-lg hover-card">
+                <div class="card-body p-5">
+                    <div class="d-flex align-items-center mb-3">
+                        <i class="bi bi-star-fill text-warning me-2"></i>
+                        <i class="bi bi-star-fill text-warning me-2"></i>
+                        <i class="bi bi-star-fill text-warning me-2"></i>
+                        <i class="bi bi-star-fill text-warning me-2"></i>
+                        <i class="bi bi-star-fill text-warning"></i>
+                    </div>
+                    <h3 class="fw-bold mb-3">El Principito</h3>
+                    <p class="text-muted lead">
+                        "Este libro enseña la importancia de la amistad, la imaginación
+                        y el valor de las pequeñas cosas. Es una lectura sencilla
+                        pero muy profunda."
+                    </p>
+                    <hr>
+                    <div class="d-flex justify-content-between align-items-center">
+                        <span class="text-primary fw-bold">Calificación: 5/5</span>
+                        <span class="text-muted"><i class="bi bi-person"></i> - Ana García</span>
+                    </div>
+                </div>
+            </div>
+        </div>
 
-        <a href="/Home/Index" class="btn btn-primary">
-            ⬅ Volver al inicio
+        <div class="col-md-6">
+            <div class="card border-0 shadow-lg hover-card">
+                <div class="card-body p-5">
+                    <div class="d-flex align-items-center mb-3">
+                        <i class="bi bi-star-fill text-warning me-2"></i>
+                        <i class="bi bi-star-fill text-warning me-2"></i>
+                        <i class="bi bi-star-fill text-warning me-2"></i>
+                        <i class="bi bi-star-fill text-warning me-2"></i>
+                        <i class="bi bi-star-half text-warning"></i>
+                    </div>
+                    <h3 class="fw-bold mb-3">Harry Potter</h3>
+                    <p class="text-muted lead">
+                        "Una historia llena de aventuras que sigue la vida de un
+                        joven mago y sus amigos en Hogwarts. Magia, amistad y valentía."
+                    </p>
+                    <hr>
+                    <div class="d-flex justify-content-between align-items-center">
+                        <span class="text-primary fw-bold">Calificación: 4.8/5</span>
+                        <span class="text-muted"><i class="bi bi-person"></i> - Carlos Martínez</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="text-center mt-5">
+        <a href="/Home/Index" class="btn btn-primary btn-lg">
+            ← Volver al inicio
         </a>
-
     </div>
-
 </div>
