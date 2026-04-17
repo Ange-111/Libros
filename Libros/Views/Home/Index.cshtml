@@ -1,92 +1,88 @@
-﻿@{
+@{
     ViewData["Title"] = "Inicio";
 }
 
-<div class="text-center mb-5">
-
-    <h1 class="display-4">💖 Rincón de Opiniones de Libros</h1>
-
-    <p class="lead">
-        Un pequeño espacio para descubrir historias mágicas,
-        compartir opiniones y encontrar tu próxima lectura favorita.
-    </p>
-
+<div class="hero-section text-center py-5 mb-5">
+    <div class="container">
+        <h1 class="display-3 fw-bold mb-3" style="color: #2c3e50;">
+            📚 Rincón de Opiniones de Libros
+        </h1>
+        <div class="divider mx-auto mb-4" style="width: 100px; height: 3px; background: linear-gradient(90deg, #3498db, #2c3e50);"></div>
+        <p class="lead text-muted">
+            Un pequeño espacio para descubrir historias mágicas,<br>
+            compartir opiniones y encontrar tu próxima lectura favorita.
+        </p>
+    </div>
 </div>
 
-<h2 class="text-center mb-4">✨ Libros populares</h2>
-
-<div class="row">
-
-    <div class="col-md-4">
-
-        <div class="card shadow">
-
-            <img src="https://gandhi.vtexassets.com/arquivos/ids/7418900/9786078678006.jpg?v=638933338909570000" class="card-img-top">
-
-            <div class="card-body text-center">
-
-                <h5 class="card-title">El Principito</h5>
-
-                <p class="card-text">
-                    Un libro lleno de enseñanzas sobre la vida y la amistad.
-                </p>
-
-                <a href="/Home/Opiniones" class="btn btn-primary">
-                    Ver opinión
-                </a>
-
-            </div>
-
-        </div>
-
+<div class="container">
+    <div class="text-center mb-5">
+        <h2 class="fw-bold" style="color: #2c3e50;">📖 Libros populares del mes</h2>
+        <p class="text-muted">Descubre qué están leyendo otros</p>
     </div>
 
-    <div class="col-md-4">
-
-        <div class="card shadow">
-
-            <img src="https://covers.openlibrary.org/b/id/7984916-L.jpg" class="card-img-top">
-
-            <div class="card-body text-center">
-
-                <h5 class="card-title">Harry Potter</h5>
-
-                <p class="card-text">
-                    Una historia mágica llena de aventuras en Hogwarts.
-                </p>
-
-                <a href="/Home/Opiniones" class="btn btn-primary">
-                    Ver opinión
-                </a>
-
+    <div class="row g-4">
+        <div class="col-md-4">
+            <div class="card h-100 border-0 shadow-lg hover-card">
+                <div class="position-relative">
+                    <img src="https://gandhi.vtexassets.com/arquivos/ids/7418900/9786078678006.jpg?v=638933338909570000"
+                         class="card-img-top" style="height: 300px; object-fit: cover;">
+                    <div class="badge-overlay">
+                        <span class="badge bg-warning text-dark">⭐ 4.9</span>
+                    </div>
+                </div>
+                <div class="card-body text-center p-4">
+                    <h5 class="card-title fw-bold">El Principito</h5>
+                    <p class="card-text text-muted">
+                        Un libro lleno de enseñanzas sobre la vida y la amistad.
+                    </p>
+                    <a href="/Home/Opiniones" class="btn btn-outline-primary">
+                        Ver opinión →
+                    </a>
+                </div>
             </div>
-
         </div>
 
-    </div>
-
-    <div class="col-md-4">
-
-        <div class="card shadow">
-
-            <img src="https://m.media-amazon.com/images/I/71wnBzT9WqL._AC_UF1000,1000_QL80_.jpg" class="card-img-top">
-
-            <div class="card-body text-center">
-
-                <h5 class="card-title">Orgullo y Prejuicio</h5>
-
-                <p class="card-text">
-                    Una historia romántica clásica de Jane Austen.
-                </p>
-
-                <a href="/Home/Opiniones" class="btn btn-primary">
-                    Ver opinión
-                </a>
-
+        <div class="col-md-4">
+            <div class="card h-100 border-0 shadow-lg hover-card">
+                <div class="position-relative">
+                    <img src="https://covers.openlibrary.org/b/id/7984916-L.jpg"
+                         class="card-img-top" style="height: 300px; object-fit: cover;">
+                    <div class="badge-overlay">
+                        <span class="badge bg-warning text-dark">⭐ 4.8</span>
+                    </div>
+                </div>
+                <div class="card-body text-center p-4">
+                    <h5 class="card-title fw-bold">Harry Potter</h5>
+                    <p class="card-text text-muted">
+                        Una historia mágica llena de aventuras en Hogwarts.
+                    </p>
+                    <a href="/Home/Opiniones" class="btn btn-outline-primary">
+                        Ver opinión →
+                    </a>
+                </div>
             </div>
-
         </div>
 
+        <div class="col-md-4">
+            <div class="card h-100 border-0 shadow-lg hover-card">
+                <div class="position-relative">
+                    <img src="https://m.media-amazon.com/images/I/71wnBzT9WqL._AC_UF1000,1000_QL80_.jpg"
+                         class="card-img-top" style="height: 300px; object-fit: cover;">
+                    <div class="badge-overlay">
+                        <span class="badge bg-warning text-dark">⭐ 4.7</span>
+                    </div>
+                </div>
+                <div class="card-body text-center p-4">
+                    <h5 class="card-title fw-bold">Orgullo y Prejuicio</h5>
+                    <p class="card-text text-muted">
+                        Una historia romántica clásica de Jane Austen.
+                    </p>
+                    <a href="/Home/Opiniones" class="btn btn-outline-primary">
+                        Ver opinión →
+                    </a>
+                </div>
+            </div>
+        </div>
     </div>
-
 </div>
